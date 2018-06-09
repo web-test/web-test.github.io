@@ -42,12 +42,28 @@ ul.nav {
 	padding: 0px 200px;
 }
 
+.container {
+	text-align: center;
+}
+
 .btn-lg {
 	font-size: 36px;
 }
+
 .col-md-3, .col-md-4, .col-md-6 {
  	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
+.container h2 h3 {
+	text-align: center;
+	font-style: italic;
+}
+
+.container h2 {
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+
 
 .col-md-4 {
 	padding: 10px;
@@ -56,8 +72,8 @@ ul.nav {
 
 .col-md-4 h2 {
 	font-weight: 700;
-	color: blue;
 }
+
 .col-md-3 {
 	text-align: center;
 	margin-top: 30px;
@@ -69,7 +85,6 @@ ul.nav {
 }
 .col-md-6 h2 {
 	font-weight: 700;
-	color: blue;
 }
 
 .col-md-6 h3 {
@@ -81,10 +96,10 @@ ul.nav {
 }
 
 .homepage hr {
-	border-top: 2px solid blue;
+	border-top: 2px solid black;
 	width: 600px;
 }
 
 .container hr {
-	border-top: 2px solid blue;
+	border-top: 2px solid black;
 }
