@@ -1,0 +1,89 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+ul.nav, .jumbotron h1 {
+	font-family: 'Arvo', courier, serif;
+}
+
+ul.nav {
+	font-size: 16px;
+}
+
+.navbar-inverse {
+	background-color: black;
+}
+
+.jumbotron {
+	text-align: center;
+	background-image: url("../images_test/background2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 90px 0px 0px 0px;
+}
+
+.jumbotron h1 {
+	font-family: 'Butterfly Kids', courier, serif;
+	font-size: 100px;
+	font-weight: 700;
+	margin-top: 0px;
+	margin-bottom: 50px;
+	color: white;
+}
+
+.jumbotron p {
+	margin-bottom: 30px;
+	font-weight: 100;
+	padding: 0 50px;
+	color: white;
+	padding: 0px 200px;
+}
+
+.btn-lg {
+	font-size: 36px;
+}
+.col-md-3, .col-md-4, .col-md-6 {
+ 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.col-md-4 {
+	padding: 10px;
+	text-align: center;
+}
+
+.col-md-4 h2 {
+	font-weight: 700;
+	color: blue;
+}
+.col-md-3 {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.col-md-6 {
+	padding: 10px 40px;
+	text-align: center;
+}
+.col-md-6 h2 {
+	font-weight: 700;
+	color: blue;
+}
+
+.col-md-6 h3 {
+	font-weight: 500;
+}
+
+.col-md-6 p {
+	margin-top: 36px;
+}
+
+.homepage hr {
+	border-top: 2px solid blue;
+	width: 600px;
+}
+
+.container hr {
+	border-top: 2px solid blue;
+}
