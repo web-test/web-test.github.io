@@ -1,7 +1,6 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-top: 50px;
-  padding-bottom: 20px;
 }
 
 ul.nav, .jumbotron h1 {
@@ -14,6 +13,13 @@ ul.nav {
 
 .navbar-inverse {
 	background-color: black;
+}
+
+footer {
+	background-color: black;
+    padding-top: 50px;
+    position: relative;
+
 }
 
 .jumbotron {
@@ -61,7 +67,7 @@ ul.nav {
 
 .container h2 {
 	font-weight: 600;
-	margin-bottom: 25px;
+	margin-bottom: 20px;
 }
 
 
@@ -72,11 +78,6 @@ ul.nav {
 
 .col-md-4 h2 {
 	font-weight: 700;
-}
-
-.col-md-3 {
-	text-align: center;
-	margin-top: 30px;
 }
 
 .col-md-6 {
@@ -91,10 +92,6 @@ ul.nav {
 	font-weight: 500;
 }
 
-.col-md-6 p {
-	margin-top: 36px;
-}
-
 .homepage hr {
 	border-top: 2px solid black;
 	width: 600px;
@@ -102,4 +99,110 @@ ul.nav {
 
 .container hr {
 	border-top: 2px solid black;
+}
+
+#calendar p {
+	padding-bottom: 21px;
+}
+
+.modal-content h1 {
+	font-size: 30px;
+    font-weight: 700;
+}
+
+.modal-content h2 {
+	font-size: 20px;
+	margin-bottom: 0px;
+}
+
+.modal-content h3, .modal-content p {
+	margin: 0px;
+	padding-bottom: 0px;
+}
+
+.modal-content h3 {
+	font-size: 16px;
+	text-align: left;
+	padding-left: 7px;
+	font-weight: 700;
+}
+
+#modal-button {
+	position: absolute;
+    margin-left: -45px;
+    top: 50%;
+    margin-top: -20px;
+}
+
+.modal-content .close {
+	position: absolute;
+    right: 7px;
+}
+
+/* Responsive styling */
+@media (max-width: 1199px) {
+
+	.jumbotron h1 {
+		font-size: 80px;
+		margin-bottom: 30px;
+	}
+
+}
+
+@media(max-width: 991px) {
+
+	.jumbotron h1 {
+		font-size: 70px;
+		margin-bottom: 0px;
+	}
+
+	.container h3 {
+		font-size: 20px;
+	}
+
+	.jumbotron p {
+		padding: 10px;
+	}
+
+	.col-md-4 {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	#calendar p {
+	padding-bottom: 0px;
+}
+}
+
+
+@media (max-width: 767px) {
+
+	.jumbotron h1 {
+		font-size: 40px;
+	}
+
+	.jumbotron p {
+		font-size: 16px;
+		padding: 0;
+	}
+
+	.container h2 {
+		font-size: 25px;
+	}
+
+	.container h3 {
+		font-size: 20px;
+	}
+
+	.btn-lg {
+		font-size: 18px;
+	}
+
+	.homepage p {
+		font-size: 18px;
+	}
+
+	footer img {
+		width: 80%;
+	}
+
 }

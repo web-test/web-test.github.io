@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>The House of Music with new name</title>
+    <title>The House of Music</title>
 
     <!-- This is our Google Arvo font and font Awesome-->
     <link href="https://fonts.googleapis.com/css?family=Butterfly+Kids" rel="stylesheet">
@@ -35,7 +35,7 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".navbar-collapse" data-offset="100">
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
@@ -46,21 +46,21 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">My very first site</a>
+          <a class="navbar-brand" href="#"></a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">Home</a></li>
+            <li class="active"><a href="#home">Home</a></li>
             <li><a href="#resources">Resources</a></li>
             <li><a href="#events">Events</a></li>
-            <li><a href="#about">About</a></li>
+            <li><a href="#information">Information</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
+    <div class="jumbotron" id="home">
       <div class="container">
         <h1>The House of Music</h1>
       </div>
@@ -73,11 +73,13 @@
     <div class="container">
       <hr>
       <!-- Example row of columns -->
-      <h2>Resources</h2>
+      <div id="resources">
+        <h2>Resources</h2>
+      </div>
       <div class="row">
           <div class="col-md-4">
             <div style="font-size:3em; color:black">
-              <img src="images_test/book-stack.png" title="Books" alt="Books" width="150" height="150"></i>
+              <img src="images_test/book-stack.png" title="Books" alt="Books" width="125" height="125"></i>
             </div>
             <h2>Books</h2>
             <p>Methods and books.</p>
@@ -85,7 +87,7 @@
         </div>
         <div class="col-md-4">
           <div style="font-size:3em; color:black">
-            <img src="images_test/Film-03.png" title="Videos" alt="Videos" width="150" height="150"></i>
+            <img src="images_test/Film-03.png" title="Videos" alt="Videos" width="125" height="125"></i>
           </div>
           <h2>Videos</h2>
           <p>Tutorials and song presentations created by our teachers.</p>
@@ -93,24 +95,116 @@
        </div>
         <div class="col-md-4">
           <div style="font-size:3em; color:black">
-            <img src="images_test/tablet-guitar.png" title="Teachers" alt="Teachers" width="120" height="150"></i>
+            <img src="images_test/tablet-guitar.png" title="Teachers" alt="Teachers" width="100" height="125"></i>
           </div>
           <h2>Teachers</h2>
           <p>Need one-on-one help with your studies?</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
       </div>
+
       <hr>
+
+      <div id="events">
+        <h2>Events</h2>
+      </div>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6" id="calendar">
           <div style="font-size:3em; color:black">
-            <i class="fas fa-handshake"></i>
+            <img src="images_test/Calendar.png" title="Calendar" alt="calendar" width="125" height="125"></i>
           </div>
-          <h2>Cooperators</h2>
-          <p>Need new hardware or assistance with our equipement? Find our nearest colaborators.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <h2>Our calendar</h2>
+          <p>Check out our program, book the date and share with your friends.</p>
+          <p><a class="btn btn-default" href="#" role="button" data-toggle="modal" data-target=".bs-example-modal-lg">View details &raquo;</a></p>
+              
+              <!-- Modal -->
+          <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <button type="button" class="close btn btn-danger"data-dismiss="modal" aria-hidden="true">x</button>
+                  <h1>Our calendar</h1>
+                  <div class="row">
+                    <div class="col-md-2">
+                      <h2>Name</h2>
+                    </div>
+                    <div class="col-md-2">
+                      <h2>Location</h2>
+                    </div>
+                    <div class="col-md-2">
+                      <h2>Date</h2>
+                    </div>
+                    <div class="col-md-2">
+                      <h2>Genre</h2>
+                    </div>
+                    <div class="col-md-2">
+                      <h2>Entrance</h2>
+                    </div>
+                    <div class="col-md-2">
+                      <h2>Info</h2>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-md-2">
+                      <h3>The Blues Trio</h3>
+                    </div>
+                    <div class="col-md-2">
+                      <p>Caffe X - Mesologgi</p>
+                    </div>
+                    <div class="col-md-2">
+                      <p>Fri 22.06.2018</p>
+                    </div>
+                    <div class="col-md-2">
+                      <p>Blues</p>
+                    </div>
+                    <div class="col-md-2">
+                      <p>Free</p>
+                    </div>
+                    <div class="col-md-2">
+                      <p><a class="btn btn-default" href="http://www.google.com" target="_blank" role="button" id="modal-button">Contacts &raquo;</a></p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-2">
+                      <h3>Nikos solo</h3>
+                    </div>
+                    <div class="col-md-2">
+                      <p>Caffe Y - Mesologgi</p>
+                    </div>
+                    <div class="col-md-2">
+                      <p>Sat 23.06.2018</p>
+                    </div>
+                    <div class="col-md-2">
+                      <p>Jazz</p>
+                    </div>
+                    <div class="col-md-2">
+                      <p>10 euros</p>
+                    </div>
+                    <div class="col-md-2">
+                      <p><a class="btn btn-default" href="http://www.pgmusic.com/" target="_blank" role="button" id="modal-button">Contacts &raquo;</a></p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+           </div>
         </div>
         <div class="col-md-6">
+          <div style="font-size:3em; color:black">
+            <img src="images_test/Earth.png" title="Earth" alt="Earth" width="125" height="125"></i>
+          </div>
+          <h2>Other events</h2>
+          <p>Here is a selection of local and international events that we believe are worth following.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+       </div>
+      </div>
+
+      <hr>
+
+      <div id="information">
+        <h2>Information</h2>
+      </div>
+      <div class="row">
+          <div class="col-md-4" id="calendar">
           <div style="font-size:3em; color:black">
             <i class="fas fa-comments"></i>
           </div>
@@ -118,14 +212,29 @@
           <p>Browse, ask your questions and help others.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
        </div>
+         <div class="col-md-4" id="calendar">
+          <div style="font-size:3em; color:black">
+            <img src="images_test/question.png" title="about us" alt="about_us" width="55" height="58"></i>
+          </div>
+          <h2>About us</h2>
+          <p>Check out we are, our plans and dreams.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <div style="font-size:3em; color:black">
+            <i class="fas fa-handshake"></i>
+          </div>
+          <h2>Cooperators</h2>
+          <p>Need new hardware or assistance with our equipement? Find our nearest colaborators.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
       </div>
-
-      <hr>
-
-      <footer>
-        <p>&copy; 2016 Company, Inc.</p>
-      </footer>
     </div> <!-- /container -->
+
+    <footer>
+      <div class="container">
+      </div>
+    </footer>
 
 
     <!-- Bootstrap core JavaScript
@@ -133,7 +242,8 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Scroll.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
