@@ -243,6 +243,22 @@ footer {
 	color: white;
 }
 
+/* Blog Posts Page */
+
+#share-buttons {
+  font-size: 40px;
+  font-weight: 700;
+  display: inline;
+}
+
+#share-buttons img {
+  width: 35px;
+  border: 0;
+  box-shadow: 0;
+  display: inline;
+  vertical-align: text-top;
+  margin-bottom: 0;
+}
 
 /* info for modal Calendar */
 
