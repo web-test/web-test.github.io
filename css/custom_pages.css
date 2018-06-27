@@ -1,0 +1,398 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+}
+
+ul.nav, .jumbotron h1 {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+ul.nav {
+	font-size: 16px;
+}
+
+.navbar-inverse {
+	background-color: black;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: -1px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-weight: 700;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li.active>a {
+    border-bottom: 1px solid;
+    padding-bottom: 12px;
+    font-weight: 600;
+}
+
+footer {
+	background-color: black;
+    padding-top: 50px;
+    position: relative;
+}
+
+.jumbotron {
+	text-align: center;
+	background-image: url("../images_test/partition2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 150px 0px 350px 0px;
+	margin-bottom: 0;
+	position: relative;
+}
+
+#home {
+	padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    opacity: .8;
+    position: absolute;
+    width: 900px;
+    left: 0%;
+    bottom: -18px;
+    border-radius: 20px 20px 1000px 100px;
+}
+
+#vision {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: black;
+	position: absolute;
+	width: 450px;
+	opacity: .8;
+	right: 0%;
+    top: 50px;
+    border-radius: 20px 100px 20px 1000px;
+}
+
+#vision h2 {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin-top: 0;
+	font-size: 20px;
+	color: white;
+	text-align: right;
+}
+
+#vision h3 {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	color: white;
+	padding: 0px 0px 0px 30px;
+	text-align: right;
+}
+
+#subscribe {
+	padding: 15px 20px 0px 20px;
+    background-color: black;
+    opacity: .8;
+    position: absolute;
+    width: 450px;
+    left: -1%;
+    top: 130px;
+    border-radius: 100px 20px 1000px 20px;
+}
+
+#subscribe h2 {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin-top: 0;
+	font-size: 20px;
+	color: white;
+	text-align: left;
+}
+
+#subscribe p {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	color: white;
+	padding: 0px 30px 0px 0px;
+	text-align: left;
+}
+
+#subscribe .form-group {
+  margin-top: 15px;
+}
+
+#subscribe .form-control {
+	width: 75%;
+}
+
+#subscribe .center {
+  padding-left: 80px;	
+}
+
+#subscribe .btn-warning {
+  background-color: #f39c12;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  background-color: #34495e;
+  border: none;
+  opacity: 1;
+}
+
+#subscribe .btn-warning:hover {
+  background-color: #2c3e50;
+}
+
+.jumbotron h1 {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 80px;
+	font-weight: 700;
+	margin-top: 0px;
+	color: white;
+	text-shadow: -6px 10px 30px #666;
+	text-align: left;
+	padding-left: 20px;
+    padding-right: 20px;
+}
+
+.jumbotron p {
+	font-weight: 100;
+	padding: 0 50px;
+	color: white;
+	padding: 0px 200px;
+}
+
+.container {
+	text-align: center;
+	color: #333;
+	position: relative;
+}
+
+.btn-lg {
+	font-size: 36px;
+}
+
+#resources, #information {
+	background-color: #dfe6e9;
+}
+
+#events {
+	background-color: #bdc3c7;
+}
+
+
+#calendar p {
+	padding-bottom: 21px;
+}
+
+
+.container hr {
+	border-top: 2px solid #333;
+	width: 300px;
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+.col-md-4 {
+ 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+ 	background: radial-gradient(white 27%, #dfe6e9 76%);
+}
+
+.col-md-6 {
+ 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+ 	background: radial-gradient(white -16%, #bdc3c7 54%);
+}
+
+.container h2 h3 {
+	text-align: center;
+	font-style: italic;
+}
+
+.container h2 {
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.col-md-4 {
+	padding: 10px;
+	text-align: center;
+}
+
+.col-md-4 h2 {
+	font-weight: 700;
+}
+
+.col-md-6 {
+	padding: 10px 40px;
+	text-align: center;
+}
+.col-md-6 h2 {
+	font-weight: 700;
+}
+
+.col-md-6 h3 {
+	font-weight: 500;
+}
+
+.site-footer {
+	padding: 40px 0px
+}
+
+.site-footer p {
+	color: white;
+}
+
+/* Blog Posts Page */
+
+#share-buttons {
+  font-size: 40px;
+  font-weight: 700;
+  display: inline;
+}
+
+#share-buttons img {
+  width: 35px;
+  border: 0;
+  box-shadow: 0;
+  display: inline;
+  vertical-align: text-top;
+  margin-bottom: 0;
+}
+
+/* info for modal Calendar */
+
+.modal-content h1 {
+	font-size: 30px;
+    font-weight: 700;
+}
+
+.modal-content h2 {
+	font-size: 20px;
+	margin-bottom: 0px;
+}
+
+.modal-content h3, .modal-content p {
+	margin: 0px;
+	padding-bottom: 0px;
+}
+
+.modal-content h3 {
+	font-size: 16px;
+	text-align: left;
+	padding-left: 7px;
+	font-weight: 700;
+}
+
+#modal-button {
+	position: absolute;
+    margin-left: -45px;
+    top: 50%;
+    margin-top: -20px;
+}
+
+.modal-content .close {
+	position: absolute;
+    right: 7px;
+}
+
+/* Responsive styling */
+@media (max-width: 1199px) {
+
+	.jumbotron h1 {
+		font-size: 70px;
+		margin-bottom: 10px;
+	}
+
+	#home {
+		padding-bottom: 0px;
+		width: 800px;
+	}
+
+	#calendar p {
+	padding-bottom: 0px;
+	}
+}
+
+@media(max-width: 991px) {
+
+	.jumbotron h1 {
+		font-size: 60px;
+	}
+
+	#home {
+		width: 670px;
+	}
+
+	#vision {
+		width: 350px;
+	}
+
+	#subscribe {
+		width: 380px;
+	}
+
+	#vision h2, #subscribe h2 {
+		font-size: 18px;
+	}
+
+	#vision h3, #subscribe p {
+		font-size: 14px;
+	}
+
+	#subscribe .center {
+    padding-left: 60px;
+	}
+
+	.container h3 {
+		font-size: 20px;
+	}
+
+	.jumbotron p {
+		padding: 10px;
+	}
+
+	.col-md-4 {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}
+
+
+@media (max-width: 767px) {
+
+	.jumbotron h1 {
+		font-size: 40px;
+	}
+
+	.jumbotron p {
+		font-size: 16px;
+		padding: 0;
+	}
+
+	.container h2 {
+		font-size: 25px;
+	}
+
+	.container h3 {
+		font-size: 20px;
+	}
+
+	#home {
+    width: 460px;
+    bottom: 38px;
+	}
+
+	#vision {
+		top: -5px;
+	}
+
+	.btn-lg {
+		font-size: 18px;
+	}
+
+	.homepage p {
+		font-size: 18px;
+	}
+
+}
