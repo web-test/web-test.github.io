@@ -90,50 +90,81 @@
   </div>
 
 
-    <div class="container">
+<div class="container">
+  <div class="row">
+
+      <div class="col-sm-3 col-sm-offset-1 blog-sidebar"> <!-- Left column -->
+
+
+        <div id="filter">
+          <h3>Click on the category of your choice to refine the search:</h3>
+        </div>
+        <!-- Filter -->
+        <div id="myBtnContainer">
+            <li><input type="radio" onclick="filterSelection('all')" name="category" checked> Show all</li>
+            <li><input type="radio" onclick="filterSelection('guitar')" name="category"> Guitar</li>
+            <li><input type="radio" onclick="filterSelection('piano')" name="category"> Piano</li>
+            <li><input type="radio" onclick="filterSelection('drums')" name="category"> Drums</li>
+            <li><input type="radio" onclick="filterSelection('theory')" name="category"> Theory</li>
+        </div>
+
+      </div><!-- End Filter -->
+
+      <div class="col-sm-8 blog-main"> <!-- Right column -->
+
       <h2>Check out our collection of books:</h2>
       <hr>
-    </div>
 
-    <div class="container" id="book-description">
-     <img id="book" src="../images_test/book-1.png" title="Book 1" alt="Book 1">
-     <h1> Super Music book 1</h1>
-     <h2>Author: Mr. Example</h2>
-     <p>This is the description of the book. We will list the key points of the book, as well as the style and level, the included songs and our general recommendation.</p>
-     <p>Pages: 120</p>
-     <p>Audio files: YES</p>
-     <hr>
+    <div id="book-description">
+      <div class="filterDiv guitar">
+         <img id="book" src="../images_test/book-1.png" title="Book 1" alt="Book 1">
+         <h1> Guitar book 1</h1>
+         <h2>Author: Mr. Example</h2>
+         <p>This is the description of the book. We will list the key points of the book, as well as the style and level, the included songs and our general recommendation.</p>
+         <p>Pages: 120</p>
+         <p>Audio files: YES</p>
+        <hr>
+      </div>
    </div>
 
-   <div class="container" id="book-description">
-     <img id="book" src="../images_test/book-2.png" title="Book 1" alt="Book 1">
-     <h1> Super Music book 2</h1>
-     <h2>Author: Mr. Example</h2>
-     <p>This is the description of the book. We will list the key points of the book, as well as the style and level, the included songs and our general recommendation.</p>
-     <p>Pages: 120</p>
-     <p>Audio files: YES</p>
-     <hr>
+   <div id="book-description">
+      <div class="filterDiv drums">
+         <img id="book" src="../images_test/book-2.png" title="Book 1" alt="Book 1">
+         <h1> Drums book 1</h1>
+         <h2>Author: Mr. Example</h2>
+         <p>This is the description of the book. We will list the key points of the book, as well as the style and level, the included songs and our general recommendation.</p>
+         <p>Pages: 120</p>
+         <p>Audio files: YES</p>
+        <hr>
+      </div>
    </div>
 
-   <div class="container" id="book-description">
-     <img id="book" src="../images_test/book-3.png" title="Book 1" alt="Book 1">
-     <h1> Super Music book 3</h1>
-     <h2>Author: Mr. Example</h2>
-     <p>This is the description of the book. We will list the key points of the book, as well as the style and level, the included songs and our general recommendation. This is the description of the book. We will list the key points of the book, as well as the style and level, the included songs and our general recommendation. This is the description of the book. We will list the key points of the book, as well as the style and level, the included songs and our general recommendation.</p>
-     <p>Pages: 120</p>
-     <p>Audio files: YES</p>
-     <hr>
+   <div id="book-description">
+      <div class="filterDiv piano">
+         <img id="book" src="../images_test/book-3.png" title="Book 1" alt="Book 1">
+         <h1> Piano book 1</h1>
+         <h2>Author: Mr. Example</h2>
+         <p>This is the description of the book. We will list the key points of the book, as well as the style and level, the included songs and our general recommendation. This is the description of the book. We will list the key points of the book, as well as the style and level, the included songs and our general recommendation. This is the description of the book. We will list the key points of the book, as well as the style and level, the included songs and our general recommendation.</p>
+         <p>Pages: 120</p>
+         <p>Audio files: YES</p>
+         <hr>
+        </div>
    </div>
 
-   <div class="container" id="book-description">
-     <img id="book" src="../images_test/book-4.png" title="Book 1" alt="Book 1">
-     <h1> Super Music book 4</h1>
-     <h2>Author: Mr. Example</h2>
-     <p>This is the description of the book. We will list the key points of the book, as well as the style and level, the included songs and our general recommendation.</p>
-     <p>Pages: 120</p>
-     <p>Audio files: YES</p>
-     <hr>
-   </div> 
+   <div id="book-description">
+      <div class="filterDiv theory">
+         <img id="book" src="../images_test/book-4.png" title="Book 1" alt="Book 1">
+         <h1> Theory book 1</h1>
+         <h2>Author: Mr. Example</h2>
+         <p>This is the description of the book. We will list the key points of the book, as well as the style and level, the included songs and our general recommendation.</p>
+         <p>Pages: 120</p>
+         <p>Audio files: YES</p>
+         <hr>
+      </div>
+   </div>
+  </div><!-- End Right column -->
+</div>
+</div> <!-- End Container -->
 
   <div class="container" id="foot-menu">
     <h1>Didn't find what you were looking for? Check out our other resources:</h1>
@@ -158,5 +189,6 @@
     <script src="../js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="../js/filter.js"></script>
   </body>
 </html>

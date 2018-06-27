@@ -116,6 +116,17 @@ footer {
 	margin-bottom: 10px;
 }
 
+/* Left column filter */
+
+.container h3 {
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/* Search categories */
+
 .container hr {
 	border-top: 1px solid #333;
 	margin-top: 35px;
@@ -128,6 +139,56 @@ footer {
 	margin-right: 30px;
 }
 
+.container {
+    overflow: hidden;
+}
+
+#myBtnContainer li {
+	list-style-type: none;
+}
+
+#myBtnContainer, #filter {
+	position: fixed;
+	width: 200px;
+}
+
+#myBtnContainer {
+    margin-top: 115px;
+}
+
+.filterDiv {
+    display: none; /* Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 8px 16px;
+  margin: 0px 15px 15px 0px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* Add a light grey background on mouse-over */
+.btn:hover {
+  background-color: #dfe6e9;
+}
+
+/* Add a dark background to the active button */
+.btn.active {
+  background-color: #bdc3c7;
+}
+/* End Search Categories */
+
+/* Foot menu buttons */
+
 #foot-menu h1 {
 	font-size: 20px;
     font-weight: 700;
@@ -137,7 +198,6 @@ footer {
 
 #foot-menu li {
 	display: inline;
-	
 }
 
 #foot-menu ul {
