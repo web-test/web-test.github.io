@@ -46,7 +46,7 @@ footer {
 	background-image: url("../images_test/partition2.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	padding: 150px 0px 350px 0px;
+	padding: 150px 0px 390px 0px;
 	margin-bottom: 0;
 	position: relative;
 }
@@ -243,7 +243,7 @@ footer {
 	color: white;
 }
 
-/* Blog Posts Page */
+/* Share button top */
 
 #share-buttons {
   font-size: 40px;
@@ -393,6 +393,10 @@ footer {
 
 	.homepage p {
 		font-size: 18px;
+	}
+
+	#share-buttons {
+		float: left;
 	}
 
 }
