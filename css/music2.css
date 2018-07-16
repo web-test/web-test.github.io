@@ -1,0 +1,18 @@
+#myCarousel {
+	position: relative;
+}
+
+#title h1 {
+	position: absolute;
+    top: 50%;
+    right: 50%;
+    z-index: 999;
+}
+
+/* Carousel */
+
+.carousel-inner img {
+	max-height: 756px;
+	margin: auto;
+	max-width: 100%;
+}
